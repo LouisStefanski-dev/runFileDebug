@@ -23,13 +23,6 @@ then
 	exit 1
 fi
 
-
-#loop through externals array, use for linking later
-for element in "${externals[@]}"
-do
-	echo "$element"
-done
-
 #create a copy of the asm file
 cp ${fileName}'.asm' ./'copy.asm'
 
